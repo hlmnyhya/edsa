@@ -39,24 +39,34 @@
 								<div class="card-body">
 									<table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
 										<thead>
-											<tr>
-												<th style="width:1px">No</th>
-												<th>Nama Regu</th>
-												<th>Shift</th>
-												<th>Anggota Regu</th>
-											</tr>
-										</thead>
-										<tbody>
-											<?php foreach ($tampilData as $key => $regu) : ?>
-												<tr>
-													<td><?= $key + 1 ?></td>
-													<td><?= $regu['nm_regu'] ?></td>
-													<td><?= $regu['ket_jaga'] ?></td>
-													<td><?= $regu['nm_anggota'] ?>
-													</td>
-												</tr>
-											<?php endforeach; ?>
-										</tbody>
+    <tr>
+        <th style="width:1px">No</th>
+        <th>Nama Regu</th>
+        <th>Shift</th>
+        <th>Anggota Regu</th>
+    </tr>
+</thead>
+<tbody>
+    <?php $previous_regu = ''; 
+    $no = 1;
+    ?>
+    <?php foreach ($tampilData as $key => $regu) : ?>
+        <?php if ($previous_regu != $regu['nm_regu']) : ?>
+            <?php $rowspan = count(array_keys(array_column($tampilData, 'nm_regu'), $regu['nm_regu'])); ?>
+            <?php $previous_regu = $regu['nm_regu']; ?>
+        <?php endif; ?>
+        <tr>
+            <?php if ($key === array_search($regu['nm_regu'], array_column($tampilData, 'nm_regu'))) : ?>
+                <td rowspan="<?= $rowspan ?>"><?= $no++ ?></td>
+                <td rowspan="<?= $rowspan ?>"><?= $regu['nm_regu'] ?></td>
+                <td rowspan="<?= $rowspan ?>"><?= $regu['ket_jaga'] ?></td>
+            <?php endif; ?>
+            <td><?= $regu['nm_anggota'] ?></td>
+
+        </tr>
+    <?php endforeach; ?>
+</tbody>
+
 									</table>
 
 
