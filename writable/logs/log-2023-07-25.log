@@ -1,0 +1,1076 @@
+CRITICAL - 2023-07-25 05:10:09 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'D:\\edsa update ...', 326)
+#1 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(326): filter_var('spark', 516, NULL)
+#2 [internal function]: CodeIgniter\HTTP\Request->CodeIgniter\HTTP\{closure}('spark', 0)
+#3 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(325): array_walk_recursive(Array, Object(Closure))
+#4 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(195): CodeIgniter\HTTP\Request->fetchGlobal('server', 'argv', 516, NULL)
+#5 D:\edsa update 25 juli 2023\edsa\system\HTTP\CLIRequest.php(190): CodeIgniter\HTTP\Request->getServer('argv')
+#6 D:\edsa update 25 juli 2023\edsa\system\HTTP\CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#7 D:\edsa update 25 juli 2023\edsa\system\Config\Services.php(131): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#8 D:\edsa update 25 juli 2023\edsa\system\Config\BaseService.php(100): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#9 D:\edsa update 25 juli 2023\edsa\system\Config\Services.php(126): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#10 D:\edsa update 25 juli 2023\edsa\system\Config\BaseService.php(171): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#11 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(593): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#12 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(307): CodeIgniter\CodeIgniter->getRequestObject()
+#13 D:\edsa update 25 juli 2023\edsa\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#14 D:\edsa update 25 juli 2023\edsa\spark(66): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2023-07-25 05:19:50 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'D:\\edsa update ...', 326)
+#1 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(326): filter_var('spark', 516, NULL)
+#2 [internal function]: CodeIgniter\HTTP\Request->CodeIgniter\HTTP\{closure}('spark', 0)
+#3 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(325): array_walk_recursive(Array, Object(Closure))
+#4 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(195): CodeIgniter\HTTP\Request->fetchGlobal('server', 'argv', 516, NULL)
+#5 D:\edsa update 25 juli 2023\edsa\system\HTTP\CLIRequest.php(190): CodeIgniter\HTTP\Request->getServer('argv')
+#6 D:\edsa update 25 juli 2023\edsa\system\HTTP\CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#7 D:\edsa update 25 juli 2023\edsa\system\Config\Services.php(131): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#8 D:\edsa update 25 juli 2023\edsa\system\Config\BaseService.php(100): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#9 D:\edsa update 25 juli 2023\edsa\system\Config\Services.php(126): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#10 D:\edsa update 25 juli 2023\edsa\system\Config\BaseService.php(171): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#11 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(593): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#12 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(307): CodeIgniter\CodeIgniter->getRequestObject()
+#13 D:\edsa update 25 juli 2023\edsa\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#14 D:\edsa update 25 juli 2023\edsa\spark(66): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2023-07-25 05:35:57 --> filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'D:\\edsa update ...', 326)
+#1 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(326): filter_var('spark', 516, NULL)
+#2 [internal function]: CodeIgniter\HTTP\Request->CodeIgniter\HTTP\{closure}('spark', 0)
+#3 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(325): array_walk_recursive(Array, Object(Closure))
+#4 D:\edsa update 25 juli 2023\edsa\system\HTTP\RequestTrait.php(195): CodeIgniter\HTTP\Request->fetchGlobal('server', 'argv', 516, NULL)
+#5 D:\edsa update 25 juli 2023\edsa\system\HTTP\CLIRequest.php(190): CodeIgniter\HTTP\Request->getServer('argv')
+#6 D:\edsa update 25 juli 2023\edsa\system\HTTP\CLIRequest.php(70): CodeIgniter\HTTP\CLIRequest->parseCommand()
+#7 D:\edsa update 25 juli 2023\edsa\system\Config\Services.php(131): CodeIgniter\HTTP\CLIRequest->__construct(Object(Config\App))
+#8 D:\edsa update 25 juli 2023\edsa\system\Config\BaseService.php(100): CodeIgniter\Config\Services::clirequest(Object(Config\App), false)
+#9 D:\edsa update 25 juli 2023\edsa\system\Config\Services.php(126): CodeIgniter\Config\BaseService::getSharedInstance('clirequest', Object(Config\App))
+#10 D:\edsa update 25 juli 2023\edsa\system\Config\BaseService.php(171): CodeIgniter\Config\Services::clirequest(Object(Config\App))
+#11 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(593): CodeIgniter\Config\BaseService::__callStatic('clirequest', Array)
+#12 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(307): CodeIgniter\CodeIgniter->getRequestObject()
+#13 D:\edsa update 25 juli 2023\edsa\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#14 D:\edsa update 25 juli 2023\edsa\spark(66): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2023-07-25 13:04:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\edsa update 25 juli 2023\edsa\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 D:\edsa update 25 juli 2023\edsa\spark(53): require('D:\\edsa update ...')
+#2 {main}
+CRITICAL - 2023-07-25 06:46:38 --> Undefined variable $jenis
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 50)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(51): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 06:49:45 --> Call to undefined method App\Models\Mutasi::getMutasiByUserId
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(47): CodeIgniter\Model->__call('getMutasiByUser...', Array)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 06:50:15 --> Call to undefined method App\Models\Mutasi::getMutasiByUserId
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(47): CodeIgniter\Model->__call('getMutasiByUser...', Array)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 06:50:50 --> Call to undefined method App\Models\Mutasi::getMutasiByUserId
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(47): CodeIgniter\Model->__call('getMutasiByUser...', Array)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 06:51:12 --> Call to undefined method App\Models\Mutasi::getMutasiByUserId
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(47): CodeIgniter\Model->__call('getMutasiByUser...', Array)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 06:55:15 --> Too few arguments to function App\Models\Mutasi::getMutasiById(), 0 passed in D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php on line 48 and exactly 1 expected
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(48): App\Models\Mutasi->getMutasiById()
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 06:57:29 --> Undefined variable $value
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 42)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 06:57:38 --> Undefined variable $value
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 42)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 06:58:07 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 06:59:42 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 06:59:50 --> syntax error, unexpected end of file
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 07:00:11 --> Undefined variable $tampilData
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 34)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 07:01:05 --> Undefined variable $tampilData
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 34)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(52): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 07:02:18 --> Undefined array key "shift"
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\edsa update ...', 51)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 07:04:26 --> syntax error, unexpected token "if"
+#0 D:\edsa update 25 juli 2023\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\edsa update ...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 07:04:32 --> syntax error, unexpected token "if"
+#0 D:\edsa update 25 juli 2023\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\edsa update ...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 07:18:37 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:19:15 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:22:57 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:23:05 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:23:32 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:24:26 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:26:40 --> Undefined variable $shiftData
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 63)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:26:49 --> Undefined variable $shiftData
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 63)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:27:04 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:27:38 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 65)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:27:49 --> Call to undefined function App\Controllers\dump()
+#0 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#5 {main}
+CRITICAL - 2023-07-25 07:29:40 --> Undefined array key -1
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:29:53 --> Undefined array key "jam_piket"
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:31:11 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 07:31:34 --> Value of type null is not callable
+#0 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#5 {main}
+ERROR - 2023-07-25 07:41:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:43:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:43:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:44:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:44:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:44:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:46:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:46:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:47:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:47:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:48:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(176): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:49:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:50:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:50:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(176): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:52:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Anggota.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(43): App\Models\Anggota->getAnggotaNotInMutasi()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 07:54:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(139): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+CRITICAL - 2023-07-25 07:56:06 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\ubah_mutasi.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 29)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/ubah_mut...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(163): view('mutasi/ubah_mut...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->edit('26')
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 08:01:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.*, `tb_anggota`.`nm_anggota` as `nm_anggota`, `tb_mutasi`.*, `tb_jenis_mutasi`.' at line 1 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `DISTINC...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(32): App\Models\Mutasi->tampilData()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->index()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 08:01:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.*, `tb_anggota`.`nm_anggota` as `nm_anggota`, `tb_mutasi`.*, `tb_jenis_mutasi`.' at line 1 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `DISTINC...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(32): App\Models\Mutasi->tampilData()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->index()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 08:08:11 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ciedsa.tb_regu.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `tb_regu...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_regu...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_regu...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `tb_regu...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+CRITICAL - 2023-07-25 08:12:11 --> Undefined array key "tgl"
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\regu\regu.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\edsa update ...', 113)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 08:12:53 --> mysqli_sql_exception: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ciedsa.tb_regu.tgl' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT MAX(tb_r...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(tb_r...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(tb_r...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT MAX(tb_r...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 08:13:00 --> mysqli_sql_exception: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ciedsa.tb_regu.tgl' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT MAX(tb_r...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(tb_r...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(tb_r...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT MAX(tb_r...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+CRITICAL - 2023-07-25 08:13:44 --> syntax error, unexpected token "return"
+#0 D:\edsa update 25 juli 2023\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\edsa update ...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Regu')
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Regu')
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(908): App\Controllers\ReguController->__construct()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 08:14:55 --> Undefined array key "tgl"
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\regu\regu.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\edsa update ...', 113)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 08:15:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tb_regu.tgl
+FROM
+    tb_regu
+LEFT JOIN
+    tb_anggota ON tb_anggota.id = tb_regu' at line 6 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\n    MAX(...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n    MAX(...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n    MAX(...')
+#3 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(37): CodeIgniter\Database\BaseConnection->query('SELECT\n    MAX(...')
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 08:15:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tb_regu.tgl
+FROM
+    tb_regu
+LEFT JOIN
+    tb_anggota ON tb_anggota.id = tb_regu' at line 6 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\n    MAX(...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n    MAX(...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n    MAX(...')
+#3 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(37): CodeIgniter\Database\BaseConnection->query('SELECT\n    MAX(...')
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 08:15:13 --> foreach() argument must be of type array|object, null given
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\regu\regu.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\edsa update ...', 108)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 08:15:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tb_regu.tgl
+FROM
+    tb_regu
+LEFT JOIN
+    tb_anggota ON tb_anggota.id = tb_regu' at line 6 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\n    MAX(...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n    MAX(...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n    MAX(...')
+#3 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(37): CodeIgniter\Database\BaseConnection->query('SELECT\n    MAX(...')
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 08:15:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tb_regu.tgl
+FROM
+    tb_regu
+LEFT JOIN
+    tb_anggota ON tb_anggota.id = tb_regu' at line 6 in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\n    MAX(...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n    MAX(...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n    MAX(...')
+#3 D:\edsa update 25 juli 2023\edsa\app\Models\Regu.php(37): CodeIgniter\Database\BaseConnection->query('SELECT\n    MAX(...')
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(25): App\Models\Regu->tampilData()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 08:39:52 --> Undefined variable $no
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\regu\regu.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 119)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 08:43:20 --> syntax error, unexpected token "}"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 08:51:00 --> syntax error, unexpected token "}", expecting "elseif" or "else" or "endif"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 08:51:05 --> Unclosed '{' on line 110
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 08:51:13 --> syntax error, unexpected token "endif"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('regu/regu', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\ReguController.php(30): view('regu/regu', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->index()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 08:52:39 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 08:57:11 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 09:00:53 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\detail.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 42)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(219): view('mutasi/detail', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('26')
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 09:03:32 --> syntax error, unexpected identifier "date", expecting "," or ";"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 09:03:44 --> syntax error, unexpected identifier "datetime", expecting "," or ";"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 09:04:29 --> syntax error, unexpected token "echo"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 09:05:01 --> Call to undefined function default_timezone_set()
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include()
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#3 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#9 {main}
+CRITICAL - 2023-07-25 09:09:53 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 09:11:58 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 09:12:30 --> Undefined array key "jam_piket"
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 09:15:27 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 09:15:37 --> Unclosed '{' on line 35
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 09:15:40 --> Unclosed '{' on line 35
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+CRITICAL - 2023-07-25 09:16:47 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+CRITICAL - 2023-07-25 09:21:20 --> Trying to access array offset on value of type null
+#0 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\edsa update ...', 64)
+#1 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#6 {main}
+ERROR - 2023-07-25 09:26:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(139): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 09:46:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(139): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 23:29:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(100): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 23:34:26 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(100): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+CRITICAL - 2023-07-25 23:38:29 --> Undefined variable $value
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 41)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+CRITICAL - 2023-07-25 23:38:39 --> Undefined variable $value
+#0 D:\edsa update 25 juli 2023\edsa\app\Views\mutasi\tambah_mutasi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\edsa update ...', 41)
+#1 D:\edsa update 25 juli 2023\edsa\system\View\View.php(220): include('D:\\edsa update ...')
+#2 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#4 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#10 {main}
+ERROR - 2023-07-25 23:41:06 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(100): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+CRITICAL - 2023-07-25 23:47:01 --> syntax error, unexpected token "<"
+#0 D:\edsa update 25 juli 2023\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\edsa update 25 juli 2023\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#2 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(53): view('mutasi/tambah_m...', Array)
+#3 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#4 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#5 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#8 {main}
+ERROR - 2023-07-25 23:50:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(100): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}
+ERROR - 2023-07-25 23:52:13 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ciedsa`.`tb_mutasi`, CONSTRAINT `tb_mutasi_ibfk_3` FOREIGN KEY (`id_anggota`) REFERENCES `tb_anggota` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\edsa update 25 juli 2023\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\edsa update 25 juli 2023\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\edsa update 25 juli 2023\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\edsa update 25 juli 2023\edsa\app\Models\Mutasi.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\edsa update 25 juli 2023\edsa\app\Controllers\MutasiController.php(100): App\Models\Mutasi->addMutasi(Array)
+#6 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 D:\edsa update 25 juli 2023\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\edsa update 25 juli 2023\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\edsa update 25 juli 2023\edsa\system\Commands\Server\rewrite.php(45): require_once('D:\\edsa update ...')
+#11 {main}

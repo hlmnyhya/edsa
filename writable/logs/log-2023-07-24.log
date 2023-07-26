@@ -1,0 +1,61 @@
+ERROR - 2023-07-24 14:17:06 --> mysqli_sql_exception: Column 'id_anggota' cannot be null in C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\edsa\app\Models\Mutasi.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(92): App\Models\Mutasi->addMutasi(Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-24 14:30:40 --> Undefined variable $formatted_date
+#0 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109)
+#1 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#2 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-07-24 14:31:22 --> mysqli_sql_exception: Column 'id_jenis' cannot be null in C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\edsa\app\Models\Mutasi.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(134): App\Models\Mutasi->addMutasi(Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-24 21:35:39 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 420)
+#1 C:\xampp\htdocs\edsa\system\Database\Query.php(420): implode(',', Array)
+#2 C:\xampp\htdocs\edsa\system\Database\Query.php(387): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\xampp\htdocs\edsa\system\Database\Query.php(178): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\xampp\htdocs\edsa\app\Models\Anggota.php(35): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(40): App\Models\Anggota->getAnggotaNotInMutasi()
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-24 21:36:49 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Angg...')
+#2 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Angg...')
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(908): App\Controllers\MutasiController->__construct()
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,309 @@
+CRITICAL - 2023-07-11 00:44:39 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 16:46:38 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 16:46:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:01:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:10:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:12:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:12:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:46 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:14:49 --> Undefined variable $akun
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:14:50 --> Undefined variable $akun
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:14:51 --> Undefined variable $akun
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:14:51 --> Undefined variable $akun
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:13 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:14 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:14 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:14 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:15 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:15 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:15 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:15 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:18:16 --> Undefined variable $row
+#0 C:\xampp\htdocs\edsa\app\Views\dataakun\dataakun.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AkunController.php(25): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-11 17:19:28 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-11 17:19:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,399 @@
+CRITICAL - 2023-07-02 21:23:20 --> Class "Myth\Auth\Filters\LoginFilter" not found
+#0 C:\xampp\htdocs\edsa\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-07-02 21:46:05 --> Undefined variable $config
+#0 C:\xampp\htdocs\edsa\app\Views\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AuthController.php(23): view('login', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-02 21:46:07 --> Undefined variable $config
+#0 C:\xampp\htdocs\edsa\app\Views\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AuthController.php(23): view('login', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-02 21:46:08 --> Undefined variable $config
+#0 C:\xampp\htdocs\edsa\app\Views\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\AuthController.php(23): view('login', Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AuthController->login()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-02 21:49:04 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:49:06 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:49:07 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:49:37 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:49:38 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:50:55 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(66): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:50:56 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(66): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:51:20 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(56): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:51:20 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(56): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:52:03 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(56): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:52:04 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(56): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:52:04 --> Attempt to read property "reservedRoutes" on null
+#0 C:\xampp\htdocs\edsa\app\Config\Routes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\edsa\app\Config\Routes.php(56): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-07-02 21:53:05 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:53:06 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:53:37 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:53:40 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:53:42 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:53:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 21:54:36 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 22:04:35 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 22:06:13 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 22:06:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 22:06:17 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-02 22:12:32 --> Undefined constant "Myth\Auth\Config\id_anggota"
+#0 C:\xampp\htdocs\edsa\system\Common.php(225): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Config\Routes.php(13): config('Myth\\Auth\\Confi...')
+#2 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(728): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#4 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(396): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\edsa\system\Router\RouteCollection.php(502): CodeIgniter\Router\RouteCollection->discoverRoutes()
+#6 C:\xampp\htdocs\edsa\system\Router\Router.php(373): CodeIgniter\Router\RouteCollection->getRoutes('get')
+#7 C:\xampp\htdocs\edsa\system\Router\Router.php(152): CodeIgniter\Router\Router->checkRoutes('login')
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('login')
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-02 22:13:38 --> Class "CodeIgniter\Entity\Entity" not found
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Entit...')
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Entit...')
+#4 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+#5 C:\xampp\htdocs\edsa\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin', NULL)
+#6 C:\xampp\htdocs\edsa\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin', Array, Array)
+#7 C:\xampp\htdocs\edsa\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-07-02 22:14:49 --> Class "CodeIgniter\Entity\Entity" not found
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Entit...')
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Entit...')
+#4 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+#5 C:\xampp\htdocs\edsa\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin', NULL)
+#6 C:\xampp\htdocs\edsa\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin', Array, Array)
+#7 C:\xampp\htdocs\edsa\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-07-02 22:20:35 --> Class "CodeIgniter\Entity\Entity" not found
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Entit...')
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Entit...')
+#4 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+#5 C:\xampp\htdocs\edsa\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', NULL)
+#6 C:\xampp\htdocs\edsa\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', Array, Array)
+#7 C:\xampp\htdocs\edsa\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-07-02 22:21:43 --> syntax error, unexpected token "protected"
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Entit...')
+#2 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Entit...')
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+#4 C:\xampp\htdocs\edsa\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', NULL)
+#5 C:\xampp\htdocs\edsa\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', Array, Array)
+#6 C:\xampp\htdocs\edsa\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-02 22:53:31 --> Class "CodeIgniter\Entity\Entity" not found
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Entit...')
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Entit...')
+#4 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+#5 C:\xampp\htdocs\edsa\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', NULL)
+#6 C:\xampp\htdocs\edsa\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', Array, Array)
+#7 C:\xampp\htdocs\edsa\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-07-02 22:58:25 --> Class "CodeIgniter\Entity\Entity" not found
+#0 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Entit...')
+#3 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Entit...')
+#4 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+#5 C:\xampp\htdocs\edsa\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('admin123', NULL)
+#6 C:\xampp\htdocs\edsa\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin123', Array, Array)
+#7 C:\xampp\htdocs\edsa\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2023-07-02 22:59:51 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\edsa\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\edsa\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-07-02 22:59:51 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\edsa\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\edsa\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 C:\xampp\htdocs\edsa\vendor\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}

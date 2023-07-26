@@ -1,0 +1,216 @@
+ERROR - 2023-07-10 19:56:11 --> mysqli_sql_exception: Column 'jumlah_tahananlaki' cannot be null in C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\edsa\app\Models\Mutasi.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(79): App\Models\Mutasi->addMutasi(Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->save()
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:57:30 --> Undefined array key "jumlah_barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(100): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:15 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:16 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:16 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:17 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:17 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:18 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:18 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:18 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 19:58:19 --> Undefined array key "barang"
+#0 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\edsa\app\Views\mutasi\detail.php(99): cetakTabel(Array)
+#2 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/detail', Array, true)
+#5 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(151): view('mutasi/detail', Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->detail('8')
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-10 20:30:38 --> Invalid file: partials/scripts.php
+#0 C:\xampp\htdocs\edsa\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/script...')
+#1 C:\xampp\htdocs\edsa\system\View\View.php(468): CodeIgniter\View\View->render('partials/script...', NULL, true)
+#2 C:\xampp\htdocs\edsa\app\Views\mutasi\tambah_mutasi.php(231): CodeIgniter\View\View->include('partials/script...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#6 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(48): view('mutasi/tambah_m...', Array)
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-10 20:32:30 --> Invalid file: partials/scripts.php
+#0 C:\xampp\htdocs\edsa\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/script...')
+#1 C:\xampp\htdocs\edsa\system\View\View.php(468): CodeIgniter\View\View->render('partials/script...', NULL, true)
+#2 C:\xampp\htdocs\edsa\app\Views\mutasi\tambah_mutasi.php(233): CodeIgniter\View\View->include('partials/script...')
+#3 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('mutasi/tambah_m...', Array, true)
+#6 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(48): view('mutasi/tambah_m...', Array)
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->create()
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-10 20:45:47 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-10 20:45:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-10 20:50:55 --> Call to undefined method App\Models\Mutasi::updateMutasi
+#0 C:\xampp\htdocs\edsa\app\Controllers\MutasiController.php(132): CodeIgniter\Model->__call('updateMutasi', Array)
+#1 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\MutasiController->update('16')
+#2 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MutasiController))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-10 21:19:43 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-10 21:20:12 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

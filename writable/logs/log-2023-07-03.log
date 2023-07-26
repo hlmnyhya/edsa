@@ -1,0 +1,552 @@
+CRITICAL - 2023-07-03 21:09:26 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 21:19:57 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 21:20:02 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 21:20:40 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 21:20:46 --> Undefined variable $title_meta
+#0 C:\xampp\htdocs\edsa\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\edsa\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\edsa\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\edsa\system\Common.php(1217): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 C:\xampp\htdocs\edsa\app\Controllers\Auth.php(14): view('auth/login')
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-03 21:48:19 --> Undefined property: App\Controllers\Auth::$db
+#0 C:\xampp\htdocs\edsa\app\Controllers\Auth.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\Auth->loginProcess()
+#2 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-07-03 22:19:24 --> Class "Myth\Auth\Authentication\Passwords\ValidationRules" not found
+#0 C:\xampp\htdocs\edsa\system\Validation\Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\edsa\system\CLI\CLI.php(297): CodeIgniter\Validation\Validation->run(Array)
+#2 C:\xampp\htdocs\edsa\system\CLI\CLI.php(269): CodeIgniter\CLI\CLI::validate('temp', 'users', 'required')
+#3 C:\xampp\htdocs\edsa\system\Commands\Database\Seed.php(78): CodeIgniter\CLI\CLI::prompt('Seeder name', NULL, 'required')
+#4 C:\xampp\htdocs\edsa\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\xampp\htdocs\edsa\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\xampp\htdocs\edsa\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed')
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\edsa\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\edsa\spark(66): CodeIgniter\CLI\Console->run()
+#12 {main}
+CRITICAL - 2023-07-03 22:25:01 --> Class "Myth\Auth\Authentication\Passwords\ValidationRules" not found
+#0 C:\xampp\htdocs\edsa\system\Validation\Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\edsa\system\CLI\CLI.php(297): CodeIgniter\Validation\Validation->run(Array)
+#2 C:\xampp\htdocs\edsa\system\CLI\CLI.php(269): CodeIgniter\CLI\CLI::validate('temp', 'UserSeeder', 'required')
+#3 C:\xampp\htdocs\edsa\system\Commands\Database\Seed.php(78): CodeIgniter\CLI\CLI::prompt('Seeder name', NULL, 'required')
+#4 C:\xampp\htdocs\edsa\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\xampp\htdocs\edsa\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\xampp\htdocs\edsa\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed')
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\edsa\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\edsa\spark(66): CodeIgniter\CLI\Console->run()
+#12 {main}
+CRITICAL - 2023-07-03 22:32:10 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:19 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:20 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:48 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:49 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:50 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:44:50 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:15 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:16 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:16 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:24 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:24 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:25 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:52 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:45:53 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:02 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:46:32 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:06 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:17 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:18 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:29 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:49:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-07-03 23:57:37 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\edsa\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\edsa\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

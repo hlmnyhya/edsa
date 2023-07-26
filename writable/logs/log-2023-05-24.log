@@ -1,0 +1,652 @@
+CRITICAL - 2023-05-24 17:17:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:19:38 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:19 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:20 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:20:21 --> Invalid file: login.php
+#0 C:\xampp\htdocs\suratmasuk\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:21:08 --> Undefined variable $title_meta
+#0 C:\xampp\htdocs\suratmasuk\app\Views\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 17:21:32 --> Undefined variable $title_meta
+#0 C:\xampp\htdocs\suratmasuk\app\Views\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 17:21:33 --> Undefined variable $title_meta
+#0 C:\xampp\htdocs\suratmasuk\app\Views\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 17:21:34 --> Undefined variable $title_meta
+#0 C:\xampp\htdocs\suratmasuk\app\Views\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\Auth.php(20): view('login')
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 17:23:01 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:23:07 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:23:09 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:23:15 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#1 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 17:23:41 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#1 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 17:23:42 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(908): App\Controllers\Auth->__construct()
+#1 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 17:24:31 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:01 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:07 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:44 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:45 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:54 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:27:54 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:14 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:55 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:28:56 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:31:03 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:31:06 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:33:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:33:08 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:34:21 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:42:30 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::include() in C:\xampp\htdocs\suratmasuk\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(281): include()
+#1 C:\xampp\htdocs\suratmasuk\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-05-24 17:44:17 --> syntax error, unexpected variable "$data", expecting "("
+#0 C:\xampp\htdocs\suratmasuk\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\suratmasuk\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-24 17:44:39 --> syntax error, unexpected token "{", expecting "("
+#0 C:\xampp\htdocs\suratmasuk\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\suratmasuk\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-05-24 17:58:21 --> mysqli_sql_exception: Table 'erni.tb_pegawai' doesn't exist in C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\suratmasuk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\suratmasuk\app\Models\Pegawai.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(15): App\Models\Pegawai->tampilData()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#8 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 17:58:21 --> Table 'erni.tb_pegawai' doesn't exist
+#0 C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\suratmasuk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\suratmasuk\app\Models\Pegawai.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(15): App\Models\Pegawai->tampilData()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#8 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-05-24 18:17:25 --> mysqli_sql_exception: Unknown column 'tb_mahasiswa.id_jabatan' in 'on clause' in C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\suratmasuk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\suratmasuk\app\Models\Pegawai.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(15): App\Models\Pegawai->tampilData()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#8 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 18:17:25 --> Unknown column 'tb_mahasiswa.id_jabatan' in 'on clause'
+#0 C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\suratmasuk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\suratmasuk\app\Models\Pegawai.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(15): App\Models\Pegawai->tampilData()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#8 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 18:17:44 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#1 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#2 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 18:17:57 --> Undefined property: stdClass::$jabatan
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:19:43 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#1 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#2 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-24 18:20:24 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:22:03 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:24:05 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:24:17 --> Undefined array key "tb_jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:24:24 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:24:48 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:25:24 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\datapegawai\datapegawai.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('datapegawai/dat...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\PegawaiController.php(20): view('datapegawai/dat...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\PegawaiController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-24 18:42:15 --> Undefined array key "username"
+#0 C:\xampp\htdocs\suratmasuk\app\Views\dataakun\dataakun.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\suratmasuk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\suratmasuk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\suratmasuk\system\Common.php(1217): CodeIgniter\View\View->render('dataakun/dataak...', Array, true)
+#4 C:\xampp\htdocs\suratmasuk\app\Controllers\AkunController.php(19): view('dataakun/dataak...', Array)
+#5 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-05-24 18:42:54 --> mysqli_sql_exception: Unknown column 'tb_akun.id_akun' in 'on clause' in C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\suratmasuk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\suratmasuk\app\Models\Akun.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\suratmasuk\app\Controllers\AkunController.php(14): App\Models\Akun->tampilData()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#8 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-24 18:42:54 --> Unknown column 'tb_akun.id_akun' in 'on clause'
+#0 C:\xampp\htdocs\suratmasuk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\suratmasuk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\suratmasuk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\suratmasuk\app\Models\Akun.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\suratmasuk\app\Controllers\AkunController.php(14): App\Models\Akun->tampilData()
+#6 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(936): App\Controllers\AkunController->index()
+#7 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkunController))
+#8 C:\xampp\htdocs\suratmasuk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\suratmasuk\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\suratmasuk\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

@@ -1,0 +1,49 @@
+CRITICAL - 2023-07-16 04:52:34 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\edsa\app\Models\Regu.php(42): implode(',', '3,12')
+#1 C:\xampp\htdocs\edsa\app\Controllers\ReguController.php(55): App\Models\Regu->saveRegu(Array)
+#2 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->save()
+#3 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-07-16 04:54:59 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\edsa\app\Models\Regu.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\edsa\app\Controllers\ReguController.php(52): App\Models\Regu->saveRegu(Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->save()
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-07-16 04:56:24 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\edsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\edsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\edsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\edsa\app\Models\Regu.php(41): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\edsa\app\Controllers\ReguController.php(52): App\Models\Regu->saveRegu(Array)
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->save()
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#8 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-16 04:58:07 --> CodeIgniter\Database\BaseBuilder::set(): Argument #2 ($value) must be of type ?string, array given, called in C:\xampp\htdocs\edsa\system\Model.php on line 275
+#0 C:\xampp\htdocs\edsa\system\Model.php(275): CodeIgniter\Database\BaseBuilder->set('id_anggota', Array, NULL)
+#1 C:\xampp\htdocs\edsa\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\edsa\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\edsa\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\edsa\app\Controllers\ReguController.php(52): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\ReguController->save()
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReguController))
+#7 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

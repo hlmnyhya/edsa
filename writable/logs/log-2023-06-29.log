@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-29 05:05:35 --> Cannot redeclare App\Controllers\Home::show_calendar()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-06-29 05:18:32 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\edsa\system\Model.php on line 247
+#0 C:\xampp\htdocs\edsa\system\Model.php(247): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 C:\xampp\htdocs\edsa\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#2 C:\xampp\htdocs\edsa\app\Models\Akun.php(37): CodeIgniter\BaseModel->first()
+#3 C:\xampp\htdocs\edsa\app\Controllers\AuthController.php(32): App\Models\Akun->getUserByUsername('yusuf')
+#4 C:\xampp\htdocs\edsa\system\CodeIgniter.php(936): App\Controllers\AuthController->processLogin()
+#5 C:\xampp\htdocs\edsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\xampp\htdocs\edsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\edsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\edsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
